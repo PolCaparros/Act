@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  width: 1360px;
+  background-image: url(img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  max-width:1360px ;
+  min-width: 1360px;
+}
+
+header {
+  background-image: url(img/aurora7\ \(11\).jpeg);
+  width: 1360px;
+  height: 277px;
+ 
+}
+
+header h1 {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 150px;
+  color: white;
+  font-family: 'calibri';
+}
+
+#container {
+  box-shadow: 7px 13px 37px #000;
+}
+
+main {
+  width: 1060px;
+  height: 1256px;
+  float: right;
+  background-color: whitesmoke;
+}
+
+h2 {
+  background-color: #24303c;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  font-family: 'calibri';
+}
+
+main article {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+  float: left;
+}
+
+article h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'calibri';
+}
+
+article p {
+  padding-bottom: 10px;
+}
+
+figure {
+  float: right;
+  padding: 10px;
+}
+
+/*****************************************************************NAV************************/
+nav {
+  color: #ffffff;
+  background-color: #24303c;
+  position: fixed;
+  width: 1360px;
+  padding: 10px;
+}
+
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 24px;
+  background-color: white;
+  width: 300px;
+  border: transparent;
+  border-bottom: solid 1px black;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+  border-radius: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#current a {
+  color: rgb(35, 142, 192);
+}
+
+b {
+  color: #55e8f3;
+}
+
+/**********************MENU********************************/
+#menu>li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  background-color: #24303c;
+  position: relative;
+}
+
+#menu>li>ul {
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+
+#menu>li>ul>li {
+  background-color: #1f53c5;
+  padding: 20px;
+}
+
+#menu>li:hover>ul {
+  display: block;
+}
+
+#menu>li>ul>li:hover {
+  background-color: rgb(120, 120, 240);
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/***********************************ASIDE*****************************/
+aside {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border-bottom: 3px solid black;
+}
+
+/*****************questionario****/
+.reguistro {
+  width: 300px;
+  background-color: #24303c;
+  margin: auto;
+  font-family: 'calibri';
+  color: white;
+  text-align: center;
+}
+
+.reguistro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid#1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.reguistro a {
+  color: white;
+  text-decoration: none;
+}
+
+.registro a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.reguistro .botons {
+  width: 50%;
+  background-color: #1f53c5;
+  border: none;
+  color: white;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/********************************************enlaces************************************************/
+#enlaces {
+  display: block;
+  flex-direction: row;
+  background-color: #24303c;
+  height: 785px;
+}
+
+#enlaces article {
+  padding: 10px;
+  width: 100%;
+}
+
+#enlaces a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  width: 500px;
+}
+
+#enlaces p {
+  padding: 10px;
+  text-align: center;
+  background-color: #1f53c5;
+}
+
+/***************************footer*****************/
+#inicio footer {
+  text-align: center;
+  background-color: #24303c;
+  border-top: 3px solid#1f53c5;
+  padding: 10PX;
+  position: relative;
+}
+#dioses footer{
+  text-align: center;
+  background-color: #24303c;
+  border-top: 3px solid#1f53c5;
+  padding: 10PX;
+
+}
+
+footer h3 {
+  color: white;
+  font-family: 'calibri';
+}
+
+footer p {
+  color: white;
+}
+
+footer article {
+  background-color: #1f53c5;
+  text-align: center;
+  width: 300px;
+  padding: 10PX;
+  margin: 5px;
+  display: inline-block;
+}
+
+/**********************************MUNDOS****************************************************/
+#mundos header {
+  background-image: url(img/Yggdrasil.jpg);
+  height: 500px;
+}
+
+#mundos article {
+  background-color: #1f53c5;
+  width: 500px;
+  margin-left: 30px;
+}
+
+#asgard,
+#midgard h2,
+#alfheim h2,
+#vanaheim h2,
+#svartalfheim h2,
+#jotumheim h2,
+#helheim h2,
+#niflheim h2,
+#muspelheim h2 {
+  text-align: center;
+  color: white;
+  font-family: 'calibri';
+}
+
+#asgard p,
+#midgard p,
+#alfheim p,
+#vanaheim p,
+#svartalfheim p,
+#jotumheim p,
+#helheim p,
+#niflheim p,
+#muspelheim p {
+  color: white;
+  width: 500px;
+  line-height: 30px;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+#asgard {
+  background-image: url(img/asgard.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#midgard {
+  background-image: url(img/Midgard.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#alfheim {
+  background-image: url(img/alfheim.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#vanaheim {
+  background-image: url(img/valhehaim.jpg.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#svartalfheim {
+  background-image: url(img/Svartalfheim_Save_Icon.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#jotumheim {
+  background-image: url(img/iotum.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#helheim {
+  background-image: url(img/fantasma.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#niflheim {
+  background-image: url(img/nifelhaim.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#muspelheim {
+  background-image: url(img/Muspelheim.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/*************************************************************DIOSES*******************************************/
+#dioses body {
+  max-width: 1600px;
+  min-width: 1360px;
+  background-color: #24303c;
+  max-width:1360px ;
+  min-width: 1360px;
+}
+
+#dioses header {
+  background-image: url(img/vikingo.jpg);
+  width: 1360px;
+}
+
+#dioses main {
+  background-color: #24303c;
+  width: 1360px;
+  height: 100%;
+}
+
+#dioses article {
+  background-color: #1f53c5;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.dios {
+  display: flex;
+}
